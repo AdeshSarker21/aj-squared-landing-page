@@ -1,0 +1,667 @@
+@media only screen and (max-width: 1991px) and (min-width: 1400px) {
+    .heroHeading .heroHeadingText {
+        font-size: 91px;
+        line-height: 79.91px;
+        color: #ffffff;
+        font-weight: 200;
+    }
+
+    .heroHeading .heroHeadingSlogan {
+        font-size: 30px;
+        line-height: normal;
+        color: #ffffff;
+        font-weight: 200;
+    }
+
+    .productItem .productItemHeading {
+        font-size: 24px;
+        font-weight: 600;
+        color: #94a502;
+        line-height: 60px;
+    }
+
+    .productItem .productItemText {
+        font-size: 16px;
+        font-weight: 200;
+        color: #22385b;
+        line-height: 22px;
+    }
+
+    .cnnabidoilHeadingArea .cnnabidoilHeadingText {
+        font-size: 55px;
+        font-weight: 200;
+        color: #d137ad;
+        line-height: 60px;
+    }
+
+    .cnnabidoilDetailsArea .cnnabidoilDetailsText {
+        font-size: 18px;
+        font-weight: 200;
+        color: #22385b;
+        line-height: 22px;
+    }
+
+    .resultHeadingArea .resultHeadingText {
+        font-size: 55px;
+        font-weight: 200;
+        color: #22385b;
+        line-height: 60px;
+    }
+
+    .labHeading .labHeadingText {
+        font-size: 55px;
+        font-weight: 200;
+        color: #22385b;
+        line-height: 60px;
+    }
+
+    .labTextArea .labText {
+        font-size: 18px;
+        font-weight: 200;
+        color: #22385b;
+        line-height: 24px;
+    }
+
+    .clientFeedbackHeading .clientFeedbackHeadingText {
+        font-size: 55px;
+        font-weight: 200;
+        color: #22385b;
+        line-height: 60px;
+    }
+
+    .moneyBackTextArea .moneyBackHeading {
+        font-size: 55px;
+        font-weight: 200;
+        color: #22385b;
+        line-height: 60px;
+    }
+
+    .moneyBackTextArea .moneyBackText {
+        font-size: 20px;
+        font-weight: 400;
+        color: #22385b;
+    }
+
+    .mainResutlArea {
+        padding: 50px 0px 60px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .heroHeading .heroHeadingText {
+        font-size: 61px;
+    }
+
+    .heroSupportLogoArea .heroSupportLogo {
+        margin-right: 30px;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+
+    .discountTextArea .discountText {
+        height: auto;
+        width: 180px;
+    }
+
+    .proudUSAcompany .proudUSAcompanyText {
+        font-size: 15px;
+    }
+
+    .proudUSAcompany .proudUSAcompanyImage {
+        height: 317px;
+    }
+
+    .proudUSAcompany {
+        margin-right: 7px;
+    }
+
+    .mainPopularProductArea {
+        padding-top: 70px;
+    }
+
+    .certifedDetails {
+        flex-basis: 40%;
+        padding-left: 25px;
+    }
+
+    .productAddLeftSide .heroHeading .heroHeadingText {
+        font-size: 54px;
+        padding-top: 80px;
+    }
+
+    .proudImageArea {
+        right: -28%;
+        bottom: -30%;
+    }
+}
+
+@media all and (max-width:991px) {
+    .mainHeaderArea {
+        display: none;
+    }
+
+    .responsiveHeader {
+        display: block;
+        position: fixed;
+        background: url(../images/bg/header.png)no-repeat scroll 0 0 / 100% 100%;
+    }
+
+    .heroFrom {
+        display: unset;
+        justify-content: unset;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .heroFrom .formInput {
+        padding: 25px 35px;
+        width: 24%;
+        background: url(../images/bg/input-bg.png)no-repeat scroll 0 0 / 100% 100%;
+        width: 100%;
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    .heroLeftArea {
+        margin-top: 40px;
+    }
+
+    .heroRightArea {
+        display: none;
+    }
+
+    .popularProductHeading {
+        margin-top: 35px;
+    }
+
+    .popularProductDetailsArea .orderButton {
+        margin-top: 35px;
+    }
+
+    .paddingLeft {
+        padding-left: 0px;
+    }
+
+    .paddingRight {
+        padding-right: 0px;
+    }
+
+    .customOne {
+        display: none;
+    }
+
+    .customTwo {
+        display: none;
+    }
+
+    .customThree {
+        display: none;
+    }
+
+    .customFour {
+        display: none;
+    }
+
+    .responsiveStep {
+        display: block;
+    }
+
+    .stepImageArea .stepImage {
+        display: none;
+    }
+
+    .disNone {
+        display: none;
+    }
+
+    .cnnabidoilHeadingArea .cnnabidoilHeadingText {
+        margin-bottom: 35px;
+    }
+
+    .mainResutlArea {
+        padding: 50px 0px 30px;
+    }
+
+    .dottedArea {
+        margin-top: 10px;
+    }
+
+    .resultItem .resultStep {
+        padding: 10px 0px 15px;
+    }
+
+    .labLeftArea {
+        text-align: center;
+    }
+
+    .clientFeedbackHeading .clientFeedbackHeadingText {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .labRightArea {
+        padding-top: 50px;
+    }
+
+    .resultItem {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .customMargin {
+        padding-top: 0;
+    }
+
+    .feedbackItem {
+        padding-left: 0;
+        margin-bottom: 35px;
+    }
+
+    .proudImageArea {
+        right: 16%;
+        bottom: -30%;
+    }
+
+    .productAdLogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+    }
+
+    .productAddLRightSide {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    .mainPopularPrdouctDetailsArea {
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+
+    .popularPrdouctDetailsHeadingArea {
+        padding-bottom: 25px;
+    }
+
+    #wapperOne {
+        background-size: contain;
+    }
+
+    .labHeading .labHeadingText {
+        font-size: 40px;
+        font-weight: 200;
+        color: #42b1f1;
+        line-height: 50px;
+    }
+
+    .effectTwo {
+        display: none;
+    }
+
+    .productAddLeftSide .heroHeading .heroHeadingText {
+        font-size: 40px;
+        line-height: 45.91px;
+    }
+
+    .heroHeading .heroHeadingText {
+        font-size: 40px;
+        line-height: 45.91px;
+    }
+
+    .mainCannabidoliArea {
+        margin-top: 40px;
+    }
+
+    .clientFeedbackHeading .clientFeedbackHeadingText {
+        margin-bottom: 40px;
+    }
+
+    .productAdLogo .heroSupportLogo {
+        margin-bottom: 15px;
+        margin: 0px 10px;
+    }
+
+    .effectTheree {
+        display: none;
+    }
+
+    .menuGroup {
+        display: unset;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100% !important;
+    }
+
+    .menu .menuList .menuLink {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .menu .menuList .menuLink .menuIcon {
+        margin-right: 5px;
+    }
+
+    .menu .menuList .menuLink .menuText {
+        font-size: 18px;
+        line-height: 15.09px;
+        color: #ffffff;
+        font-weight: 400;
+    }
+}
+
+@media all and (max-width:767px) {
+    .heroTextItemGroup .heroTextItemList .heroTextItemListText {
+        font-size: 16px;
+        line-height: 24px;
+        color: #22385b;
+        font-weight: 400;
+    }
+
+    .heroHeading .heroHeadingSlogan {
+        font-size: 20px;
+        line-height: normal;
+        color: #22385b;
+        font-weight: 300;
+    }
+
+    .proudUSAcompany {
+        display: none;
+    }
+
+    .discountTextArea {
+        margin-bottom: 0px;
+    }
+
+    .mainDiscountArea {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 25px;
+    }
+
+    .heroFormArea {
+        padding: 16px 0px;
+        margin: 0px 40px;
+    }
+
+    .heroFrom .formInput {
+        background: #fff;
+        border: 1px solid #b6dfe2;
+        border-radius: 35px;
+    }
+
+    .heroSupportLogoArea {
+        padding-top: 25px;
+        text-align: center;
+    }
+
+    .popularProductHeading .popularProductHeadingText {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .popularPrdouctDetailsHeadingArea .popularPrdouctDetailsHeadingText {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .resultHeadingArea .resultHeadingText {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .certifiedArea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .certifedDetails .certifedText {
+        font-size: 18px;
+        font-weight: 400;
+        color: #22385b;
+        line-height: 24px;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 25px 0px;
+    }
+
+    .proudImageArea {
+        display: none;
+    }
+
+    .queation img {
+        width: 120px;
+    }
+
+    .mainMoneyBackArea {
+        position: relative;
+        margin: 40px 0px 0px;
+    }
+}
+
+@media all and (max-width:577px) {
+    .resultHeadingArea .resultHeadingText {
+        font-size: 33px;
+        line-height: 42px;
+    }
+
+    .labLogoArea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 20px;
+        flex-wrap: wrap;
+    }
+
+    .labLogoArea .labLogo {
+        height: 60px;
+        width: 70px;
+        margin: 15px;
+    }
+
+    .clientFeedbackHeading .clientFeedbackHeadingText {
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .queation img {
+        width: 80px;
+    }
+
+    .moneyBackLeftArea .happyImage {
+        position: unset;
+        left: unset;
+        bottom: unset;
+        width: 100%;
+    }
+
+    .moneyBackRighArea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .moneyBackTextArea {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .footerLinkgroup {
+        flex-direction: column;
+    }
+
+    .footerLinkgroup .footerLinkList {
+        border: none;
+    }
+
+    .cnnabidoilHeadingArea .cnnabidoilHeadingText {
+        font-size: 34px;
+        font-weight: 200;
+        color: #d137ad;
+        line-height: 46px;
+    }
+
+    .mainPopularProductArea {
+        padding-top: 0px;
+    }
+}
+
+@media all and (max-width:480px) {
+    .heroHeading .heroHeadingText {
+        color: #22385b;
+    }
+
+    .heroSupportLogoArea .heroSupportLogo {
+        margin: 0px 15px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+    }
+
+    .heroFrom .formInput {
+        padding: 15px 35px;
+    }
+
+    .productLeftArea .productImage {
+        height: auto;
+        width: 100%;
+    }
+
+    .resultHeadingArea .resultHeadingText {
+        font-size: 28px;
+        line-height: 39px;
+    }
+
+    .labHeading .labHeadingText {
+        font-size: 30px;
+        font-weight: 200;
+        color: #42b1f1;
+        line-height: 41px;
+    }
+
+    .productAdLogo .heroSupportLogo {
+        margin-bottom: 15px;
+        margin: 0px 10px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+    }
+
+    .feedbackArea .feedback {
+        font-size: 16px;
+        font-weight: 200;
+        color: #22385b;
+        line-height: 20px;
+    }
+
+    .paymentGatway .paymentGatewayIcon {
+        width: 100%;
+    }
+}
+
+@media all and (max-width:400px) {
+    .productAddLeftSide .heroHeading .heroHeadingText {
+        font-size: 33px;
+        line-height: 35.91px;
+    }
+
+    .productAddLeftSide .heroHeading .heroHeadingSlogan {
+        font-size: 20px;
+        padding: 15px 0px 23px;
+    }
+
+    .productAddLeftSide .heroTextItemGroup .heroTextItemList .heroTextItemListText {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .popularProductHeading .popularProductHeadingText {
+        font-size: 33px;
+        line-height: 35.91px;
+    }
+
+    .popularPrdouctDetailsHeadingArea .popularPrdouctDetailsHeadingText {
+        font-size: 33px;
+        line-height: 35.91px;
+    }
+
+    .cnnabidoilHeadingArea .cnnabidoilHeadingText {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .resultHeadingArea .resultHeadingText {
+        font-size: 26px;
+        line-height: 39px;
+    }
+
+    .disNoneTwo {
+        display: none;
+    }
+
+    .moneyBackTextArea .moneyBackHeading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .security .securityIcon {
+        width: 100%;
+    }
+}
+
+@media all and (max-width:375px) {
+    .resultHeadingArea .resultHeadingText {
+        font-size: 22px;
+        line-height: 39px;
+    }
+
+    .productAddLeftSide .heroHeading .heroHeadingText {
+        font-size: 29px;
+        line-height: 30.91px;
+    }
+
+    .productAddLeftSide .heroHeading .heroHeadingSlogan {
+        font-size: 18px;
+        padding: 15px 0px 23px;
+    }
+
+    .productAddLeftSide .heroTextItemGroup .heroTextItemList .heroTextItemListText {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .popularProductHeading .popularProductHeadingText {
+        font-size: 27px;
+        line-height: 30.91px;
+    }
+
+    .popularPrdouctDetailsHeadingArea .popularPrdouctDetailsHeadingText {
+        font-size: 29px;
+        line-height: 30.91px;
+    }
+
+    .cnnabidoilHeadingArea .cnnabidoilHeadingText {
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    .resultHeadingArea .resultHeadingText {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+
+@media all and (max-width:350px) {
+    .resultHeadingArea .resultHeadingText {
+        font-size: 20px;
+        line-height: 39px;
+    }
+}

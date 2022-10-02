@@ -1,0 +1,908 @@
+/*============
+font-family: 'Montserrat', sans-serif;
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#wapperOne {
+    background: url(../images/bg/bg.png)no-repeat scroll 0 0 / 100% 100%;
+}
+
+/*==================================================================================================================================*/
+/*=======================================================Start Header Section=======================================================*/
+/*==================================================================================================================================*/
+.mainHeaderArea {
+    padding: 46px 0px 15px;
+}
+
+.logoArea {}
+
+.logo {}
+
+.menuArea {}
+
+.menuGroup {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menuGroup .menuList {
+    margin-right: 20px;
+}
+
+.menuGroup .menuList .menuLink {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menuGroup .menuList .menuLink .menuIcon {
+    margin-right: 5px;
+}
+
+.menuGroup .menuList .menuLink .menuText {
+    font-size: 18px;
+    line-height: 15.09px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.responsiveHeader {
+    display: none;
+}
+
+/*==================================================================================================================================*/
+/*=======================================================End Header Section=======================================================*/
+/*==================================================================================================================================*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*==================================================================================================================================*/
+/*======================================================Start Hero Section==========================================================*/
+/*==================================================================================================================================*/
+.mainHeroSection {}
+
+.heroLeftArea {}
+
+.heroHeading {}
+
+.heroHeading .heroHeadingText {
+    font-size: 70px;
+    line-height: 59.91px;
+    color: #ffffff;
+    font-weight: 200;
+    padding-top: 70px;
+}
+
+.heroHeading .heroHeadingSlogan {
+    font-size: 25px;
+    line-height: normal;
+    color: #ffffff;
+    font-weight: 200;
+    padding: 15px 0px 23px;
+}
+
+.discountTextArea {
+    margin-bottom: -25px;
+}
+
+.heroTextItemGroup {}
+
+.heroTextItemGroup .heroTextItemList {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.heroTextItemGroup .heroTextItemList .heroTextItemListIcon {
+    margin-right: 10px;
+}
+
+.heroTextItemGroup .heroTextItemList .heroTextItemListText {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.heroSupportLogoArea {
+    padding-top: 50px;
+}
+
+.heroSupportLogoArea .heroSupportLogo {
+    margin-right: 30px;
+}
+
+.mainDiscountArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: -235px;
+}
+
+.discountTextArea {}
+
+.discountTextArea .discountText {
+    height: auto;
+    width: 210px;
+}
+
+.proudUSAcompany {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 35px;
+}
+
+.proudUSAcompany .proudUSAcompanyText {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.proudUSAcompany .proudUSAcompanyImage {}
+
+.heroImageArea {}
+
+.heroImageArea .heroImage {
+    height: auto;
+    width: 100%;
+}
+
+.heroFormArea {
+    background: url(../images/bg/form-background.png)no-repeat scroll 0 0 / 100% 100%;
+    padding: 35px 115px;
+    margin: 0px 40px;
+}
+
+.heroFrom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroFrom .formInput {
+    border: none;
+    background: none;
+    font-size: 16px;
+    line-height: 22px;
+    color: #a5a9af;
+    font-weight: 200;
+    padding: 15px 35px;
+    width: 24%;
+    background: url(../images/bg/input-bg.png)no-repeat scroll 0 0 / 100% 100%;
+}
+
+#formSubmit {
+    background: #fc786e;
+    font-size: 19px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 35px;
+}
+
+/*==================================================================================================================================*/
+/*=======================================================End Hero Section==========================================================*/
+/*==================================================================================================================================*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*==================================================================================================================================*/
+/*=======================================================Start Popular Product Section==============================================*/
+/*==================================================================================================================================*/
+.mainPopularProductArea {
+    padding-top: 115px;
+}
+
+.productLeftArea {
+    text-align: center;
+}
+
+.productLeftArea .productImage {
+    height: 564px;
+}
+
+.productRightArea {}
+
+.popularProductHeading {}
+
+.popularProductHeading .popularProductHeadingText {
+    font-size: 55px;
+    font-weight: 200;
+    color: #36be93;
+    line-height: 60px;
+}
+
+.popularProductDetailsArea {
+    padding: 45px 0px;
+}
+
+.popularProductDetailsArea .popularProductDetailsText {
+    font-size: 18px;
+    font-weight: 200px;
+    color: #22385b;
+    line-height: 26px;
+}
+
+.popularProductDetailsArea .orderButton {
+    border: none;
+    background: none;
+    background: #fc786e;
+    font-size: 19px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: 600;
+    padding: 15px 35px;
+    text-align: center;
+    border-radius: 35px;
+}
+
+/*==================================================================================================================================*/
+/*=======================================================End Popular Product Section================================================*/
+/*==================================================================================================================================*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*==================================================================================================================================*/
+/*================================================Start Popular Product Details Section=============================================*/
+/*==================================================================================================================================*/
+.mainPopularPrdouctDetailsArea {
+    padding-top: 150px;
+    padding-bottom: 140px;
+}
+
+.popularPrdouctDetailsHeadingArea {
+    padding-bottom: 90px;
+}
+
+.popularPrdouctDetailsHeadingArea .popularPrdouctDetailsHeadingText {
+    font-size: 55px;
+    font-weight: 200;
+    color: #91a01a;
+    line-height: 60px;
+}
+
+.productItem {
+    margin-bottom: 50px;
+}
+
+.productItem .productItemHeading {
+    font-size: 18px;
+    font-weight: 600;
+    color: #94a502;
+    line-height: 60px;
+}
+
+.productItem .productItemText {
+    font-size: 15px;
+    font-weight: 200;
+    color: #22385b;
+    line-height: 22px;
+}
+
+.popularProductDetailsItem .productiItemImage {
+    width: 100%;
+    height: auto;
+}
+
+.orderButtonArea .orderButton {
+    border: none;
+    background: none;
+    background: #fc786e;
+    font-size: 19px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: 600;
+    padding: 15px 35px;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.paddingLeft {
+    padding-left: 70px;
+}
+
+.paddingRight {
+    padding-right: 70px;
+}
+
+/*==================================================================================================================================*/
+/*==================================================End Popular Product Details Section=============================================*/
+/*==================================================================================================================================*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*==================================================================================================================================*/
+/*========================================================Start Cannabidoli Section==================================================*/
+/*==================================================================================================================================*/
+.orderButtonArea .orderButton {
+    border: none;
+    background: none;
+    background: #fc786e;
+    font-size: 19px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: 600;
+    padding: 15px 35px;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.mainCannabidoliArea {}
+
+.cnnabidoilLeftArea {
+    padding-right: 10%;
+}
+
+.cnnabidoilLeftArea .cnnabidoilImage {
+    width: 100%;
+}
+
+.cnnabidoilRightArea {}
+
+.cnnabidoilHeadingArea {}
+
+.cnnabidoilHeadingArea .cnnabidoilHeadingText {
+    font-size: 40px;
+    font-weight: 200;
+    color: #d137ad;
+    line-height: 50px;
+}
+
+.cnnabidoilDetailsArea {}
+
+.cnnabidoilDetailsArea .cnnabidoilDetailsText {
+    font-size: 16px;
+    font-weight: 200;
+    color: #22385b;
+    line-height: 22px;
+}
+
+/*==================================================================================================================================*/
+/*========================================================End Cannabidoli Section===================================================*/
+/*==================================================================================================================================*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*==================================================================================================================================*/
+/*========================================================Start Result Section===================================================*/
+/*==================================================================================================================================*/
+.mainResutlArea {
+    padding: 145px 0px 60px;
+    position: relative;
+}
+
+.effectTwo {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+.effectTwo .effectTwoImage {
+    height: 250px;
+    width: 190px;
+}
+
+.resultHeadingArea {
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.resultHeadingArea .resultHeadingText {
+    font-size: 40px;
+    font-weight: 200;
+    color: #22385b;
+    line-height: 50px;
+}
+
+.resultItem {
+    text-align: center;
+}
+
+.resultItem .resultText {
+    font-size: 16px;
+    font-weight: 200;
+    color: #22385b;
+    line-height: 22px;
+}
+
+.resultItem .resultStep {
+    font-size: 36px;
+    font-weight: 200;
+    color: #22385b;
+    line-height: 36px;
+    padding: 40px 0px 20px;
+}
+
+.dottedArea {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dottedArea .dot {
+    display: block;
+    height: 5px;
+    width: 5px;
+    background: #dfe7f3;
+    border-radius: 50%;
+    margin-bottom: 4px;
+}
+
+.stepImageArea {
+    text-align: center;
+}
+
+.stepImageArea .stepImage {
+    height: auto;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -110px;
+}
+
+.customOne {
+    padding-left: 5%;
+    padding-top: 50px;
+}
+
+.customTwo {
+    padding-left: 10%;
+    margin-left: 8%;
+}
+
+.customThree {
+    margin-top: -100px;
+    padding-right: 20%;
+}
+
+.customFour {
+    margin-top: -100px;
+    padding-right: 20%;
+}
+
+.responsiveStep {
+    display: none;
+}
+
+/*==================================================================================================================================*/
+/*=============================================================End Result Section===================================================*/
+/*==================================================================================================================================*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*==================================================================================================================================*/
+/*=============================================================Start Lab Section===================================================*/
+/*==================================================================================================================================*/
+.mainLabArea {
+    background: url(../images/body-images/effect-01.png)no-repeat scroll 0 0 / 100% 100%;
+}
+
+.labLeftArea {}
+
+.labLeftArea .labImage {
+    height: auto;
+    width: 100%;
+}
+
+.labRightArea {
+    padding-top: 150px;
+}
+
+.labHeading {}
+
+.labHeading .labHeadingText {
+    font-size: 55px;
+    font-weight: 200;
+    color: #42b1f1;
+    line-height: 60px;
+}
+
+.labLogoArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px 60px;
+}
+
+.labLogoArea .labLogo {
+    height: 60px;
+    width: 70px;
+}
+
+.labTextArea {}
+
+.labTextArea .labText {
+    font-size: 16px;
+    font-weight: 200;
+    color: #22385b;
+    line-height: 20px;
+}
+
+.certifiedArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 42px;
+}
+
+.certified {
+    flex-basis: 20%;
+}
+
+.certified .certifiedIcon {
+    height: 135px;
+    width: 135px;
+}
+
+.certifedDetails {
+    flex-basis: 30%;
+    padding-left: 25px;
+}
+
+.certifedDetails .certifedText {
+    font-size: 18px;
+    font-weight: 400;
+    color: #22385b;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.btnArea {
+    flex-basis: 50%;
+}
+
+/*==================================================================================================================================*/
+/*=============================================================End Lab Section======================================================*/
+/*==================================================================================================================================*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*==================================================================================================================================*/
+/*======================================================Start Feedback Section======================================================*/
+/*==================================================================================================================================*/
+.clientFeedBackArea {
+    padding-top: 70px;
+    position: relative;
+}
+
+.effectTheree {
+    position: absolute;
+    top: 10%;
+    right: 0%;
+}
+
+.effectTheree .effectThreeImage {
+    width: 200px;
+}
+
+.clientFeedbackHeading {
+    text-align: center;
+}
+
+.clientFeedbackHeading .clientFeedbackHeadingText {
+    font-size: 40px;
+    font-weight: 200;
+    color: #22385b;
+    line-height: 50px;
+}
+
+.feedbackItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.queation {
+    margin-right: 21px;
+}
+
+.feedbackArea {}
+
+.feedbackArea .name {
+    font-size: 18px;
+    font-weight: 400;
+    color: #22385b;
+    line-height: 24px;
+}
+
+.feedbackArea .start {}
+
+.feedbackArea .feedback {
+    font-size: 18px;
+    font-weight: 200;
+    color: #22385b;
+    line-height: 24px;
+}
+
+.customMargin {
+    padding-top: 100px;
+}
+
+/*==================================================================================================================================*/
+/*=========================================================End Feedback Section======================================================*/
+/*==================================================================================================================================*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*==================================================================================================================================*/
+/*=========================================================Start Moneyback Section======================================================*/
+/*==================================================================================================================================*/
+.mainMoneyBackArea {
+    position: relative;
+    margin: 240px 0px 0px;
+}
+
+.bgWapper {
+    background-color: #d9f4f5;
+    border-radius: 10px;
+}
+
+.moneyBackLeftArea {}
+
+.moneyBackLeftArea .happyImage {
+    position: absolute;
+    left: 7.2%;
+    bottom: 0%;
+    width: 65%;
+}
+
+.moneyBackRighArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: -50px;
+}
+
+.moneBackLogoArea {}
+
+.moneBackLogoArea .moneyBackLogo {}
+
+.moneyBackTextArea {
+    padding-left: 30px;
+}
+
+.moneyBackTextArea .moneyBackHeading {
+    font-size: 40px;
+    font-weight: 200;
+    color: #42b1f1;
+    line-height: 50px;
+}
+
+.moneyBackTextArea .moneyBackText {
+    font-size: 16px;
+    font-weight: 400;
+    color: #22385b;
+    padding-right: 10px;
+}
+
+/*==================================================================================================================================*/
+/*=========================================================End Moneyback Section======================================================*/
+/*==================================================================================================================================*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*==================================================================================================================================*/
+/*=========================================================Start Product Add Section=================================================*/
+/*==================================================================================================================================*/
+.mainProductAddSection {
+    position: relative;
+}
+
+.effectOne {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    z-index: -1;
+}
+
+.effectOne .effectOneImage {
+    height: auto;
+    width: 100%;
+}
+
+.productAddLeftSide .heroHeading .heroHeadingText {
+    font-size: 70px;
+    line-height: 59.91px;
+    color: #2a3e61;
+    font-weight: 200;
+    padding-top: 80px;
+}
+
+.productAddLeftSide .heroHeading .heroHeadingSlogan {
+    font-size: 25px;
+    line-height: normal;
+    color: #2a3e61;
+    font-weight: 200;
+    padding: 15px 0px 23px;
+}
+
+.productAddLeftSide .discountTextArea {
+    margin-bottom: -25px;
+}
+
+.productAddLeftSide .heroTextItemGroup {}
+
+.productAddLeftSide .heroTextItemGroup .heroTextItemList {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.productAddLeftSide .heroTextItemGroup .heroTextItemList .heroTextItemListIcon {
+    margin-right: 10px;
+}
+
+.productAddLeftSide .heroTextItemGroup .heroTextItemList .heroTextItemListText {
+    font-size: 18px;
+    line-height: 28px;
+    color: #2a3e61;
+    font-weight: 400;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.addDiscountArea {
+    padding-top: 37px;
+}
+
+.addDiscountArea .addDiscountImage {
+    margin-bottom: -35px;
+}
+
+.customMarginTwo {
+    margin-left: 35px;
+}
+
+.proudImageArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: absolute;
+    right: -8%;
+    bottom: -30%;
+}
+
+.proudImageArea .proudImage {}
+
+.proudImageArea .proudText {
+    font-size: 18px;
+    line-height: 28px;
+    color: #482585;
+    font-weight: 400;
+}
+
+.productAdLogo {}
+
+.productAdLogo .heroSupportLogo {
+    margin-bottom: 15px;
+}
+
+.productAddLRightSide {
+    margin-top: 150px;
+}
+
+.productAddLRightSide .productAdImgae {
+    height: auto;
+    width: 100%;
+}
+
+.paymentGatway {
+    margin-top: 80px;
+}
+
+.paymentGatway .paymentGatewayIcon {
+    font-size: 18px;
+    line-height: 28px;
+    color: #482585;
+    font-weight: 400;
+}
+
+/*==================================================================================================================================*/
+/*=========================================================End Product Add Section==================================================*/
+/*==================================================================================================================================*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*==================================================================================================================================*/
+/*=========================================================Start Footer Section==================================================*/
+/*==================================================================================================================================*/
+.mainFooterArea {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.conditions {}
+
+.conditions .conditionsText {
+    font-size: 14px;
+    line-height: 28px;
+    color: #22385b;
+    font-weight: 400;
+}
+
+.security {
+    padding: 22px 0px 30px;
+}
+
+.security .securityIcon {}
+
+.copyrightArea {}
+
+.copyrightArea .copyrightText {
+    font-size: 14px;
+    line-height: 28px;
+    color: #22385b;
+    font-weight: 400;
+}
+
+.footerLinkArea {}
+
+.footerLinkgroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLinkgroup .footerLinkList {
+    border-right: 1px solid #22385b;
+    padding: 0px 5px
+}
+
+.footerLinkgroup .footerLinkList .footerLink {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 28px;
+    color: #22385b;
+    font-weight: 400;
+}
+
+.footerLinkgroup .footerLinkList:last-child {
+    border: none;
+}
+
+/*==================================================================================================================================*/
+/*=========================================================End Footer Section==================================================*/
+/*==================================================================================================================================*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
